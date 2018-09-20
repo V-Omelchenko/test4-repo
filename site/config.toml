@@ -1,3 +1,20 @@
 baseurl = "/"
 languageCode = "en-us"
 title = "Homepage"
+[languages]
+  [languages.en]
+    title = "My blog"
+    weight = 1
+    [languages.en.params]
+      linkedin = "/"
+  [languages.ru]
+    title = "Mon blogue"
+    weight = 2
+    [languages.ru.params]
+      linkedin = "/ru/"
+      [languages.ru.params.navigation]
+        help = "Aide"
+
+[params]
+  [params.navigation]
+    help = "Help"
